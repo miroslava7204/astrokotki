@@ -1,0 +1,29 @@
+body {
+    background-color: #ffd791;
+}
+
+h1 {
+    background-color: #f0b041;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+h3 {
+    margin-left: 40px;
+}
+
+th {
+    background-color: blue;
+}
+
+img, video {
+    width: 200px;
+    height: auto;
+}
+
+iframe {
+    width: 300px;
+    height: 300px;
+}
