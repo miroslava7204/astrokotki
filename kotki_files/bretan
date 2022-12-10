@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'BretanRegular';
+        src: url('/assets/fonts/bretan/be50ee5a5819b0e9a9aa0c763b53704a/be7c83f9311c39577db201aa75bb3698/BretanRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalBlack';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/f5e535be1fcac001abeb37eba82343c9/CovalBlack.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalBlackItalic';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/411ee10930adef749c9f1106b8788379/CovalBlackItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'CovalBold';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/bde4cd182e0643ee305f32edce28177c/CovalBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalBoldItalic';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/032b89aa51fca3dc5079fd7b4ae3da3b/CovalBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'CovalBook';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/db31cce77041887e42cf6ee19fa9f3fa/CovalBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalBookItalic';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/13bbe21803ee907a395248f298b551ea/CovalBookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'CovalDemiBold';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/c78d9d1b4b5e4e9816a3b2f90fd529e8/CovalDemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalDemiBoldItalic';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/43d1d6e614592ccf2b5bf617ea0267c9/CovalDemiBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'CovalExtraBold';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/5fa958aa332846212065aed602423751/CovalExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalExtraBoldItalic';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/6a1be4c615e21d47364c47b1f03674f7/CovalExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'CovalExtraLight';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/0b691cbde4e93f52e682b5e74c94411e/CovalExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalExtraLightItalic';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/f9349dbb4852c9ce02d5a5b883e84a02/CovalExtraLightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'CovalHeavy';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/9fd73a217469280b4ee30c9841b461d5/CovalHeavy.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalHeavyItalic';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/e61775a489c6fe6bcb596a4d4c960dd0/CovalHeavyItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'CovalItalic';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/8835d984437809d449a9b32e80d17209/CovalItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'CovalLight';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/8c772ad08716dae851b49d13925d5386/CovalLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalLightItalic';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/ea3d1c35c4d7a5495fe63f6880c1d49c/CovalLightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'CovalMedium';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/d845bc955f2632dd67b3c8c244c0f921/CovalMedium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalMediumItalic';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/4fb052c68edb7eeec31444570ffaf1e0/CovalMediumItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'CovalRegular';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/dab61d7828198d79f23d08b98251d5c9/CovalRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalThin';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/a84abd2c7ae1eaf64d2ec8970c0f6b20/CovalThin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CovalThinItalic';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/b1f34d845be7d97d1d2eb9bd73e8ca3b/CovalThinItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+ /* The following rules are deprecated. */ 
+
+@font-face {
+    font-family: 'Bretan';
+        src: url('/assets/fonts/bretan/be50ee5a5819b0e9a9aa0c763b53704a/be7c83f9311c39577db201aa75bb3698/BretanRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/f5e535be1fcac001abeb37eba82343c9/CovalBlack.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/411ee10930adef749c9f1106b8788379/CovalBlackItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/bde4cd182e0643ee305f32edce28177c/CovalBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/032b89aa51fca3dc5079fd7b4ae3da3b/CovalBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/db31cce77041887e42cf6ee19fa9f3fa/CovalBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/13bbe21803ee907a395248f298b551ea/CovalBookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/c78d9d1b4b5e4e9816a3b2f90fd529e8/CovalDemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/43d1d6e614592ccf2b5bf617ea0267c9/CovalDemiBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/5fa958aa332846212065aed602423751/CovalExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/6a1be4c615e21d47364c47b1f03674f7/CovalExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/0b691cbde4e93f52e682b5e74c94411e/CovalExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/f9349dbb4852c9ce02d5a5b883e84a02/CovalExtraLightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/9fd73a217469280b4ee30c9841b461d5/CovalHeavy.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/e61775a489c6fe6bcb596a4d4c960dd0/CovalHeavyItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/8835d984437809d449a9b32e80d17209/CovalItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/8c772ad08716dae851b49d13925d5386/CovalLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/ea3d1c35c4d7a5495fe63f6880c1d49c/CovalLightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/d845bc955f2632dd67b3c8c244c0f921/CovalMedium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/4fb052c68edb7eeec31444570ffaf1e0/CovalMediumItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/dab61d7828198d79f23d08b98251d5c9/CovalRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/a84abd2c7ae1eaf64d2ec8970c0f6b20/CovalThin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Coval';
+        src: url('/assets/fonts/bretan/4c03c53817dacd059f28f385af02c5e8/b1f34d845be7d97d1d2eb9bd73e8ca3b/CovalThinItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
