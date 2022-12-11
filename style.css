@@ -23,7 +23,14 @@ h3 {
 
 }
 
-p, ul, li, ol {
+ul, li, ol {
+	color: black;
+	font-family: "Times New Roman";
+	font-weight: normal;
+    font-style: normal;
+}
+p {
+	text-align: justify;
 	color: black;
 	font-family: "Times New Roman";
 	font-weight: normal;
