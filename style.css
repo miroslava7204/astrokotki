@@ -7,48 +7,47 @@ body {
   
 h1 {
 	padding-top: 70px;
-    font-family: "Times New Roman";
+	font-family: "Segoe Script";
 	margin-left: 10px;
 	text-align: center;
 }
 
 h2 {
-     margin-left: 20px;
-	 font-family: "Times New Roman";
+     margin-left: 40px;
+     font-family: "Segoe Script";
 }
 
 h3 {
-     margin-left: 40px
-	 font-family: "Times New Roman";
-
+     margin-left: 40px;
+     font-family: "Segoe Script";
 }
 
 ul, li, ol {
 	color: black;
-	font-family: "Times New Roman";
+        font-family: "Segoe Script";
 	font-weight: normal;
-    font-style: normal;
+    	font-style: normal;
 }
 p {
 	text-align: justify;
 	color: black;
-	font-family: "Times New Roman";
+    	font-family: "Segoe Script";
 	font-weight: normal;
-    font-style: normal;
+    	font-style: normal;
 }
 
 img {
-  width: 288px;
-  height: auto;
+  	width: 288px;
+  	height: auto;
 }
 
 th {
-    background-color: blue;
+    	background-color: blue;
 }
 
 .logo, .navbar-brand > img {
-    height: 30px;
-    width: auto;
+    	height: 30px;
+    	width: auto;
 }
 
 /*nav{
