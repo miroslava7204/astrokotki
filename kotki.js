@@ -18,7 +18,7 @@ document.getElementById("buttonB").onclick = function () {
 	let inputA = document.getElementById("inputB").value;
     let b = Number(inputA);
     document.getElementById("answerB").style.display = "block";
-    document.getElementById("answerB").innerHTML = "Мили: " + Math.round(b*0.62137*100)/100;
+    document.getElementById("answerB").innerHTML = "Мили: " + Math.round(b*0.62137*100)/100 + " mi";
 }
 
 document.getElementById("inputB").addEventListener("keyup", function(event) {
@@ -48,7 +48,7 @@ document.getElementById("buttonD").onclick = function () {
 	let inputA = document.getElementById("inputD").value;
     let b = Number(inputA);
     document.getElementById("answerD").style.display = "block";
-    document.getElementById("answerD").innerHTML = "Километри: " + Math.round(b/0.62137*100)/100;
+    document.getElementById("answerD").innerHTML = "Километри: " + Math.round(b/0.62137*100)/100 + " km";
 }
 
 
