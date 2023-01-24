@@ -34,32 +34,78 @@
 				</div>
 			</div>
 		</nav>
+
+		<h1>Конвертор</h1>
 		<br><br><br>
 		<div class="container text-center">
 				<div class="row">
 					<div class="col">
-						<h3>Температура</h3>
+                        <h3>Температура C -> F</h3>
 					</div>
 					<div class="col">
-						<h3>Разстояние</h3>
+                        <h3>Разстояние KM -> Mile</h3>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col">
 						<div class="container">
-							<input type="number" id="inputA">
-							<button id="buttonA" class="btn btn-success">конверт</button>
-							<p id="answerA">...</p>
+                            <div class="input-group">
+                                <input id="inputA" type="text" class="form-control" placeholder="Целзии">
+                                <div class="input-group-append">
+                                    <button id="buttonA" class="btn btn-outline-secondary" type="button">Конвертиране</button>
+                                </div>
+                            </div>
+							<p id="answerA" class="alert alert-success" style="display:none"></p>
 						</div>
 					</div>
 						
 	
 					<div class="col">
 						<div class="container">
-							<input type="number" id="inputB">
-							<button id="buttonB" class="btn btn-success">конверт</button>
-							<p id="answerB">...</p>
+                            <div class="input-group">
+                                <input id="inputB" type="text" class="form-control" placeholder="Километри">
+                                <div class="input-group-append">
+                                    <button id="buttonB" class="btn btn-outline-secondary" type="button">Конвертиране</button>
+                                </div>
+                            </div>
+							<p id="answerB" class="alert alert-success" style="display:none"></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+                        <h3>Температура F -> C</h3>
+					</div>
+					<div class="col">
+                        <h3>Разстояние Mile -> KM</h3>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<div class="container">
+                            <div class="input-group">
+                                <input id="inputC" type="text" class="form-control" placeholder="Фаренхайт">
+                                <div class="input-group-append">
+                                    <button id="buttonC" class="btn btn-outline-secondary" type="button">Конвертиране</button>
+                                </div>
+                            </div>
+							<p id="answerC" class="alert alert-success" style="display:none"></p>
+						</div>
+					</div>
+						
+	
+					<div class="col">
+						<div class="container">
+                            <div class="input-group">
+                                <input id="inputD" type="text" class="form-control" placeholder="Мили">
+                                <div class="input-group-append">
+                                    <button id="buttonD" class="btn btn-outline-secondary" type="button">Конвертиране</button>
+                                </div>
+                            </div>
+							<p id="answerD" class="alert alert-success" style="display:none"></p>
 						</div>
 					</div>
 				</div>
