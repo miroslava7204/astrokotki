@@ -3,7 +3,7 @@ document.getElementById("buttonA").onclick = function () {
 	let inputA = document.getElementById("inputA").value;
     let a = Number(inputA);
     document.getElementById("answerA").style.display = "block";
-    document.getElementById("answerA").innerHTML = "Фаренхайт: " + Math.round(((a*1.8)+32)*100)/100 + " F";
+    document.getElementById("answerA").innerHTML = "Фаренхайт: " + Math.round(((a*1.8)+32)*100)/100 + " °F";
 }
 
 //километри -> мили
@@ -19,7 +19,7 @@ document.getElementById("buttonC").onclick = function () {
 	let inputA = document.getElementById("inputC").value;
     let a = Number(inputA);
     document.getElementById("answerC").style.display = "block";
-    document.getElementById("answerC").innerHTML = "Целзии: " + Math.round(((a-32)/1.8)*100)/100 + " C";
+    document.getElementById("answerC").innerHTML = "Целзии: " + Math.round(((a-32)/1.8)*100)/100 + " °C";
 }
 
 //мили -> километри 
