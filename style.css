@@ -10,12 +10,7 @@ h1 {
 	text-align: center;
 }
 
-h2 {
-     margin-left: 40px;
-     font-family: "Segoe Script";
-}
-
-h3 {
+h2, h3 {
      margin-left: 40px;
      font-family: "Segoe Script";
 }
@@ -27,7 +22,7 @@ ul, li, ol {
     font-style: normal;
 }
 
-p {
+p, label {
 	text-align: justify;
 	color: black;
     font-family: "Segoe Script";
