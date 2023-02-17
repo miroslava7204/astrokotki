@@ -11,7 +11,7 @@ body {
 	height: 100vh;
 }
 		
-img {
+#button {
 	width: auto;
 	height: 120px;
 	position: absolute;
