@@ -22,10 +22,6 @@ function vestnik() {
   document.body.style.button = "vestnik.png";
 }
 
-let zhertvi = document.getElementsByName("zhertva");
-for (let zh of zhertvi) {
-	zh.onclick = function() {
-		let zhertva = zh.value;
-		console.log(zhertva);
-	}
-}
+//let zhertvi = document.getElementsById(zhertvi)
+//	console.log(zhertvi);
+	

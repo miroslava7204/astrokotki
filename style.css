@@ -22,31 +22,32 @@ h3 {
 
 ul, li, ol {
 	color: black;
-        font-family: "Segoe Script";
+    font-family: "Segoe Script";
 	font-weight: normal;
-    	font-style: normal;
+    font-style: normal;
 }
+
 p {
 	text-align: justify;
 	color: black;
-    	font-family: "Segoe Script";
+    font-family: "Segoe Script";
 	font-weight: normal;
-    	font-style: normal;
+    font-style: normal;
 }
 
-img {
+/*img {
   	width: 288px;
   	height: auto;
-}
+}*/
 
 th {
-    	background-color: blue;
+    background-color: blue;
 }
 
-.logo, .navbar-brand > img {
+/*.logo, .navbar-brand > img {
     	height: 30px;
     	width: auto;
-}
+}*/
 
 
 
