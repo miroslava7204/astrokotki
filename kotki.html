@@ -1,102 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="author" content="Mira">
-		<title>kotki</title>
-		<link rel="icon" type="image/jpg" href="astrocat.jpg">
-		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/" type="text/css"/>
-		<link rel="stylesheet" href="bootstrap.css">
-		<link rel="stylesheet" href="style.css">
-	</head>
+---
+layout: default
+title: травмирани котки
+---
+		<form action="/action_page.php">
+	  	<p>жертва</p>
+	  	<input type="radio" id="html" name="zhertva" value="hleb">
+	  	<label for="html">Hlebarka</label><br>
+	  	<input type="radio" id="css" name="zhertva" value="mishka">
+	  	<label for="css">Mishka</label><br>
 
-  <body>
+		<p>оръжие</p>
+		<input type="radio" id="vestnik" name="oruzhie" value="vestnik">
+	  	<label for="vestnik">vestnik</label><br>
+	  	<input type="radio" id="japanka" name="oruzhie" value="japanka">
+	  	<label for="japanka">japanka</label><br>
+	</form>
 
-		<nav class="navbar navbar-expand-lg bg-light">
-			<div class="container">
-				<a class="navbar-brand" href="index.html">
-					<img src="astrocat.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
-					astrokotki
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="astro.html">рецепти</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="kotki.html">js part</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<br><br><br>
-		<div class="container-fluid text-center">
-
-				<div class="row">
-					<div class="col-md-6">
-						<div class="container">
-							<h3>Температура °C -> °F</h3>
-                            <div class="input-group">
-                                <input id="inputA" type="text" class="form-control" placeholder="Целзий">
-                                <div class="input-group-append">
-                                    <button id="buttonA" class="btn btn-outline-secondary" type="button">Конвертиране</button>
-                                </div>
-                            </div>
-							<p id="answerA" class="alert alert-success" style="display:none"></p>
-						</div>
-					</div>
-						
+		<img src="mishka.png" id="button" onclick="btnClick()" onmouseover="btnClick()"></img>
 	
-					<div class="col-md-6">
-						<div class="container">
-							<h3>Разстояние KM -> Mile</h3>
-                            <div class="input-group">
-                                <input id="inputB" type="text" class="form-control" placeholder="Километри">
-                                <div class="input-group-append">
-                                    <button id="buttonB" class="btn btn-outline-secondary" type="button">Конвертиране</button>
-                                </div>
-                            </div>
-							<p id="answerB" class="alert alert-success" style="display:none"></p>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-6">
-						<div class="container">
-							<h3>Температура °F -> °C</h3>
-                            <div class="input-group">
-                                <input id="inputC" type="text" class="form-control" placeholder="Фаренхайт">
-                                <div class="input-group-append">
-                                    <button id="buttonC" class="btn btn-outline-secondary" type="button">Конвертиране</button>
-                                </div>
-                            </div>
-							<p id="answerC" class="alert alert-success" style="display:none"></p>
-						</div>
-					</div>
-						
-	
-					<div class="col-md-6">
-						<div class="container">
-							<h3>Разстояние Mile -> KM</h3>
-                            <div class="input-group">
-                                <input id="inputD" type="text" class="form-control" placeholder="Мили">
-                                <div class="input-group-append">
-                                    <button id="buttonD" class="btn btn-outline-secondary" type="button">Конвертиране</button>
-                                </div>
-                            </div>
-							<p id="answerD" class="alert alert-success" style="display:none"></p>
-						</div>
-					</div>
-				</div>
-		</div>
-		
-		<script src="kotki.js"></script>
-		<script src="bootstrap.js"></script>
-   </body>
-</html>
+	<script src="mishka.js"></script>
+	<script src="bootstrap.js"></script>

@@ -1,6 +1,5 @@
 body {
-    background-color: #fcd2eb; 
-<!-- временен цвят, докато намеря по-хубав -->
+     background-color: #fcd2eb;
 }
 	
   
@@ -12,27 +11,27 @@ h1 {
 }
 
 h2 {
-    margin-left: 40px;
-    font-family: "Segoe Script";
+     margin-left: 40px;
+     font-family: "Segoe Script";
 }
 
 h3 {
-    margin-left: 40px;
-    font-family: "Segoe Script";
+     margin-left: 40px;
+     font-family: "Segoe Script";
 }
 
-ul, li, ol, td {
+ul, li, ol {
 	color: black;
-    font-family: "Segoe Script";
+        font-family: "Segoe Script";
 	font-weight: normal;
-    font-style: normal;
+    	font-style: normal;
 }
 p {
 	text-align: justify;
 	color: black;
-    font-family: "Segoe Script";
+    	font-family: "Segoe Script";
 	font-weight: normal;
-    font-style: normal;
+    	font-style: normal;
 }
 
 img {
@@ -41,11 +40,13 @@ img {
 }
 
 th {
-    background-color: blue;
-	font-family: "Segoe Script";
+    	background-color: blue;
 }
 
 .logo, .navbar-brand > img {
     	height: 30px;
     	width: auto;
 }
+
+
+
